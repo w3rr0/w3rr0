@@ -1,4 +1,6 @@
-## Hi there 👋
+## Hey there! I'm Konrad 👋
+
+Computer Science and Intelligent Systems student at AGH University of Krakow
 
 <!--
 **w3rr0/w3rr0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
