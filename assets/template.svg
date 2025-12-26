@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="90" height="20">
     <clipPath id="r"><rect width="90" height="20" rx="3" fill="#fff"/></clipPath>
     <g clip-path="url(#r)">
-        <rect width="25" height="20" fill="#777777"/>
+        <rect width="25" height="20" fill="#666666"/>
         <rect x="25" width="65" height="20" fill="{{COLOR}}"/>
     </g>
-    <g transform="translate(4, 3) scale(0.30)">
+    <g transform="translate(5.0, 2.75) scale(0.12)">
         {{LOGO}}
     </g>
     <g fill="#fff" text-anchor="middle" font-family="Verdana,sans-serif" font-size="11">
