@@ -1,12 +1,26 @@
 import re
 
 BADGES = [
-    ("C++", "#00599C", "../assets/cpp.svg"),
-    ("Python", "#3776AB", "../assets/python.svg"),
-    ("Java", "#ED8B00", "../assets/java.svg")
+    ("C++", "#00599C"),
+    ("Python", "#3776AB"),
+    ("Java", "#ED8B00"),
+    ("Go", "#00ADD8"),
+    ("SQL", "#666666"),
+
+    ("FastAPI", "#009688"),
+    ("Pandas", "#150458"),
+    ("Spring", "#6DB33F"),
+    ("Qt", "#41CD52"),
+    ("ROS", "#22314E"),
+    ("PostgreSQL", "#336791"),
+
+    ("Linux", "#FCC624"),
+    ("Docker", "#2496ED"),
 ]
 
 TEMPLATE = "../assets/template.svg"
+
+create_name = lambda x: x.replace("++", "pp").lower()
 
 def extract_svg_content(filepath):
     try:
@@ -33,15 +47,17 @@ def create_badge(label, color, icon_path):
     svg = svg.replace("{{COLOR}}", color)
     svg = svg.replace("{{LOGO}}", icon_content)
 
-    output_filename = f"badge_{label.lower().replace('++', 'pp')}.svg"
+    output_filename = f"badge_{create_name(label)}.svg"
     with open(f"../output/{output_filename}", "w", encoding="utf-8") as f:
         f.write(svg)
     
-    print(f"Sukces! Utworzono: {output_filename}")
+    print(f"Created: {output_filename}")
 
 
 if __name__ == "__main__":
-    print("--- Rozpoczynam generowanie odznak ---")
-    for label, color, path in BADGES:
-        create_badge(label, color, path)
-    print("--- Gotowe! ---")
+    print("--- Start generating badges ---")
+    num = 0
+    for label, color in BADGES:
+        create_badge(label, color, f"../assets/{create_name(label)}.svg")
+        num += 1
+    print(f"--- Finish - {num} generated ---")
