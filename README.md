@@ -2,17 +2,21 @@
 
 🔭 **Computer Science and Intelligent Systems** student at AGH University of Krakow
 
-🏎️ Software Engineer @ **IAESTE** and **AGH Racing Team**
+🏎️ Software Engineer @ **AGH Racing Team**
+
+Mainly focusing on Distributed Backends and AI infrastructure
 
 ---
 
-### Skills & Technologies
+![Python](output/badge_python.svg) ![C++](output/badge_cpp.svg) ![Java](output/badge_java.svg) ![Go](output/badge_go.svg)
+
+<!--### Skills & Technologies
 
 - ![Python](output/badge_python.svg) ![C++](output/badge_cpp.svg) ![Java](output/badge_java.svg) ![Go](output/badge_go.svg) ![SQL](output/badge_sql.svg)
 
 - ![FastApi](output/badge_fastapi.svg) ![Pandas](output/badge_pandas.svg) ![Spring](output/badge_spring.svg) ![PostgreSQL](output/badge_postgresql.svg) ![Qt](output/badge_qt.svg) ![ROS](output/badge_ros.svg)
 
-- ![Linux](output/badge_linux.svg) ![Docker](output/badge_docker.svg)
+- ![Linux](output/badge_linux.svg) ![Docker](output/badge_docker.svg)-->
 
 <!--
 **w3rr0/w3rr0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
