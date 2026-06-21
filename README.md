@@ -1,9 +1,9 @@
 ## Hey there! I'm Konrad 👋
 
-🔭 **Computer Science and Intelligent Systems** student at AGH University of Krakow \
+🔭 **Computer Science and Intelligent Systems** student @ AGH University of Krakow \
 🏎️ Driverless Team @ **AGH Racing**
 
-Mainly focusing on Distributed Backends and AI infrastructure
+Mainly focusing on Distributed Backends and AI Systems Engineering
 
 ---
 
