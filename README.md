@@ -7,7 +7,7 @@ Mainly focusing on Distributed Backends and AI Systems Engineering
 
 ---
 
-![Python](output/badge_python.svg) ![C++](output/badge_cpp.svg) ![Java](output/badge_java.svg) ![Go](output/badge_go.svg)
+![Python](output/badge_python.svg) ![Java](output/badge_java.svg) ![C++](output/badge_cpp.svg) ![Go](output/badge_go.svg)
 
 <!--### Skills & Technologies
 
